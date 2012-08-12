@@ -22,3 +22,5 @@ Usage
 The code uses a predetermined number of pixels on each side of each character to measure positive/negative space. Experiment with different values. In this example, it is 30px:
 
   $( "#page_header" ).opticalSpace(30);
+  
+Note: since optical letterspacing on lowercase is usually a bad idea, you'll want to stick to uppercase text only here.
